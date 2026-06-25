@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">RoomEase</string>
+    <string name="members_count">%1$d Members</string>
+</resources>

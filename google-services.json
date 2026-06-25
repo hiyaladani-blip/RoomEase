@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "589557089603",
+    "project_id": "roomease-5526a",
+    "storage_bucket": "roomease-5526a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:589557089603:android:9820e3b4bfa9e5c61a5bf6",
+        "android_client_info": {
+          "package_name": "com.example.roomease"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_ylc7oK2Z3XhZLTSNneOn6BLZ9IBOntE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:589557089603:android:babf620ce0d617af1a5bf6",
+        "android_client_info": {
+          "package_name": "com.yourcompany.roomease"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_ylc7oK2Z3XhZLTSNneOn6BLZ9IBOntE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
