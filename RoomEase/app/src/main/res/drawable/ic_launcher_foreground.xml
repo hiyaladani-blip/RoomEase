@@ -1,0 +1,48 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- House Roof -->
+    <path
+        android:pathData="M30,50 L54,28 L78,50"
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="6"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+    <!-- Chimney -->
+    <path
+        android:pathData="M68,36 L68,42"
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="5"
+        android:strokeLineCap="butt" />
+
+    <!-- Letter R -->
+    <path
+        android:pathData="M42,48 L42,82 M42,48 C55,48 58,58 42,65 L56,82"
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="7"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+    <!-- Share/Connection Dots -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M70,68 A3,3 0 1,1 64,68 A3,3 0 1,1 70,68 Z" />
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M82,75 A3,3 0 1,1 76,75 A3,3 0 1,1 82,75 Z" />
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M70,82 A3,3 0 1,1 64,82 A3,3 0 1,1 70,82 Z" />
+
+    <!-- Share lines -->
+    <path
+        android:pathData="M68,70 L78,74 M68,80 L78,76"
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="2"
+        android:strokeLineCap="round" />
+
+</vector>

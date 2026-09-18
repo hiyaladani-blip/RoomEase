@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.roomease.LoginFragment"
+        android:label="Login">
+        <action
+            android:id="@+id/action_login_to_roomList"
+            app:destination="@id/roomListFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/roomListFragment"
+        android:name="com.example.roomease.RoomListFragment"
+        android:label="Rooms">
+        <action
+            android:id="@+id/action_roomList_to_expenses"
+            app:destination="@id/expensesFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/expensesFragment"
+        android:name="com.example.roomease.ExpensesFragment"
+        android:label="Expenses" />
+
+    <fragment
+        android:id="@+id/choresFragment"
+        android:name="com.example.roomease.ChoresFragment"
+        android:label="Chores" />
+
+    <fragment
+        android:id="@+id/calendarFragment"
+        android:name="com.example.roomease.CalendarFragment"
+        android:label="Calendar" />
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.roomease.SettingsFragment"
+        android:label="Settings" />
+
+</navigation>
